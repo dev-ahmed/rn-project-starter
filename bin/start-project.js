@@ -6,6 +6,7 @@ var queue = require('../lib/queue');
 var _ = require('lodash');
 var packages = require('../lib/packages');
 var scripts = require('../lib/scripts');
+var eslintConfigs = require('../lib/eslintrcConfig');
 
 _.each(packages, function (package, index) {
     queue.add(lib.installDeps(package.name, package.config));
@@ -21,3 +22,4 @@ _.each(scripts, function (script, index) {
     }
 })
 
+lib.createJsonFile('.eslintrc', eslintConfigs)
