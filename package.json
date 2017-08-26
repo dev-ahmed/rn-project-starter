@@ -1,5 +1,5 @@
 {
-  "name": "js-project-starter",
+  "name": "react-project-initializer",
   "version": "1.0.0",
   "description": "",
   "directories": {
@@ -11,19 +11,30 @@
   "author": "Ahmed Nabil",
   "license": "ISC",
   "bin": {
-    "start-project": "bin/start-project.js"
+    "rn-start-project": "bin/start-project.js"
   },
   "main": "./lib/index.js",
   "preferGlobal": true,
   "dependencies": {
     "jsonfile": "^3.0.1",
     "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "npm": "^5.3.0",
     "npm-add-script": "^1.1.0",
     "npm-programmatic": "0.0.8",
     "shelljs": "^0.7.8"
   },
-  "devDependencies": {
-    "eslint-config-equimper": "^2.2.1"
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-ahmed/project-initializer.git"
+  },
+  "keywords": [
+    "react",
+    "react-native"
+  ],
+  "bugs": {
+    "url": "https://github.com/dev-ahmed/project-initializer/issues"
+  },
+  "homepage": "https://github.com/dev-ahmed/project-initializer#readme"
 }

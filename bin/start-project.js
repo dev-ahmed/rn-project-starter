@@ -9,17 +9,17 @@ var scripts = require('../lib/scripts');
 var eslintConfigs = require('../lib/eslintrcConfig');
 
 _.each(packages, function (package, index) {
-    queue.add(lib.installDeps(package.name, package.config));
-    if (packages.length === index + 1) {
-        queue.run();
-    }
+  queue.add(lib.installDeps(package));
+  if (packages.length === index + 1) {
+    queue.run();
+  }
 });
 
 _.each(scripts, function (script, index) {
-    queue.add(lib.addScript(script.key, script.value));
-    if (scripts.length === index + 1) {
-        queue.run();
-    }
+  queue.add(lib.addScript(script.key, script.value));
+  if (scripts.length === index + 1) {
+    queue.run();
+  }
 })
 
 lib.createJsonFile('.eslintrc', eslintConfigs)
