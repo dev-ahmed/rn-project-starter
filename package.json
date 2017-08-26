@@ -1,7 +1,7 @@
 {
-  "name": "react-project-initializer",
-  "version": "1.0.0",
-  "description": "",
+  "name": "rn-project-starter",
+  "version": "1.0.1",
+  "description": "react native project starter for eslint, some esenssial packages, and react native standalone debugger",
   "directories": {
     "lib": "lib"
   },
