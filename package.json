@@ -1,6 +1,6 @@
 {
   "name": "rn-project-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react native project starter for eslint, some esenssial packages, and react native standalone debugger",
   "directories": {
     "lib": "lib"
@@ -27,14 +27,14 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-ahmed/project-initializer.git"
+    "url": "git+https://github.com/dev-ahmed/rn-project-starter.git"
   },
   "keywords": [
     "react",
     "react-native"
   ],
   "bugs": {
-    "url": "https://github.com/dev-ahmed/project-initializer/issues"
+    "url": "https://github.com/dev-ahmed/rn-project-starter/issues"
   },
-  "homepage": "https://github.com/dev-ahmed/project-initializer#readme"
+  "homepage": "https://github.com/dev-ahmed/rn-project-starter#readme"
 }
