@@ -1,4 +1,4 @@
-# React Native Project Started
+# React Native Project Starter
 
 ## **Installing**
 
